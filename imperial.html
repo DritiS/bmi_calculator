@@ -11,19 +11,19 @@
     <div class="box">
         <div class="in">
             <a href="imperial.html">
-                <button class="button">Imperial System</button>
+                <button class="button" style="background-color: darkgray;">Imperial System</button>
             </a>
             <a href="index.html">
-                <button class="button" style="background-color: darkgray;">Metric System</button>
+                <button class="button">Metric System</button>
             </a>
         </div>
         <form>
             <div class="in2">
-                <label for="Height" class="label1">Height (in cm)</label>&nbsp;&nbsp;
+                <label for="Height" class="label1">Height (in ft)</label>&nbsp;&nbsp;
                 <input type="number" id="Height" name="Height" min="1" max="500">
             </div>
             <div class="in2">
-                <label for="Weight" class="label1">Weight (in kg)</label>&nbsp;&nbsp;
+                <label for="Weight" class="label1">Weight (in lbs)</label>&nbsp;&nbsp;
                 <input type="number" id="Weight" name="Weight" min="1" max="500">
             </div>
             <div class="in2">
@@ -35,11 +35,10 @@
                 <label for="female">Female</label> 
                 &nbsp;
             </div>
-            <button onclick="return calculateBMI();">Calculate BMI</button>
+            <button onclick="return calculateBMI2();">Calculate BMI</button>
             <p id="demo">Your BMI is: </p>
-            
         </form>
-        <img id="myImage" onclick="changeImage()" src="images/Normal.png">
+        <img id="myImage" onclick="changeImage2()" src="images/Normal.png">
         <p>Click the image to see in which category do you fall.</p>
     </div>
     

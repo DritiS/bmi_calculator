@@ -1,0 +1,192 @@
+.box{
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    display: table;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+
+.in{
+    display: inline-flex;
+}
+
+.button{
+    width: 30vw;
+}
+
+.in2{
+    display: inline-flex;
+    padding:10px;
+}
+
+.label1{
+    width: 120px;
+    
+
+}
+
+form{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    body{
+        padding: 5px;
+        font-size: 20px;
+        margin: ;
+    }
+
+    .button{
+        width: 40vw;
+    }
+
+
+}
+
+
+@media screen and (max-width: 250px) {
+    box{
+        padding: 5px;
+        font-size: 20px;
+        margin: 5%;
+    }
+
+    .button{
+        width: 60vw;
+    }
+
+
+}
+
+@media screen and (max-width: 100px) {
+    body{
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .button{
+        width: 100vw;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    body{
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    img{
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-height: 400px) {
+    body{
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .box{
+        margin-top: 5px;
+    }
+
+}
+
+@media screen and (max-height: 350px) {
+    body{
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .box{
+        margin-top: 0px;
+    }
+
+    img{
+        height: 25px;
+        width: 25px;
+    }
+
+}
+
+
+@media screen and (max-height: 310px) {
+    body{
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .box{
+        margin-top: 0px;
+    }
+
+    img{
+        height: 10px;
+        width: 10px;
+    }
+
+    form{
+        font-size: 5px;
+    }
+}
+
+
+@media screen and (max-height: 250px) {
+    body{
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .box{
+        margin-top: 0px;
+    }
+
+    img{
+        height: 10px;
+        width: 10px;
+    }
+
+    form{
+        font-size: 3px;
+    }
+}
+
+
+@media screen and (max-height: 200px) {
+    body{
+        padding: 2px;
+        font-size: 20px;
+    }
+
+    .box{
+        margin-top: 0%;
+    }
+
+    img{
+        height: 5px;
+        width: 5px;
+    }
+
+    form{
+        font-size: 1px;
+    }
+
+    .button{
+        padding: 5px;
+        font-size: 2px;
+    }
+
+}
