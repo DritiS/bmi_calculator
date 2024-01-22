@@ -25,13 +25,13 @@ function changeImage() {
 
   
   if (bmi <= 18.5) {
-    image.src = "images/Underweight (2).png";
+    image.src = "Underweight (2).png";
   } else if (bmi > 18.5 && bmi < 25) {
-    image.src = "images/Normal.png";
+    image.src = "Normal.png";
   } else if (bmi >= 25 && bmi < 30) {
-    image.src = "images/Overweight.png";
+    image.src = "Overweight.png";
   } else {
-    image.src = "images/Obese.png";
+    image.src = "Obese.png";
   }
 }
 
@@ -60,13 +60,13 @@ function changeImage2() {
 
   
   if (bmi2 <= 18.5) {
-    image.src = "images/Underweight (2).png";
+    image.src = "Underweight (2).png";
   } else if (bmi2 > 18.5 && bmi2 < 25) {
-    image.src = "images/Normal.png";
+    image.src = "Normal.png";
   } else if (bmi2 >= 25 && bmi2 < 30) {
-    image.src = "images/Overweight.png";
+    image.src = "Overweight.png";
   } else {
-    image.src = "images/Obese.png";
+    image.src = "Obese.png";
   }
 }
 
